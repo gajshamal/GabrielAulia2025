@@ -555,6 +555,13 @@ Features-stack
   .leftcol {
     padding-right: 100px;
     border-right: solid 1px $keyline-color;
+    @media (min-width: 1024px) { // Adjust the breakpoint as needed
+      height: 410px;
+    }
+  }
+  .middle {
+    padding-left: 50px;
+    border-right: solid 1px $keyline-color ;
   }
   .rightcol {
     padding-left: 100px;
